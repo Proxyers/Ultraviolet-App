@@ -9,10 +9,7 @@
 },
 "scripts": {
 "start": "node src/index.js",
-"build": "echo \"No build needed\"",
-"format": "prettier --config .prettierrc.js --write .",
-"lint": "eslint ./src/",
-"lint:fix": "eslint ./src/ --fix"
+"build": "echo \"No build needed\""
 },
 "keywords": [
 "proxy"
