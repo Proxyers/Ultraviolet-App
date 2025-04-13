@@ -12,7 +12,8 @@
 "build": "echo \"No build needed\""
 },
 "keywords": [
-"proxy"
+"proxy",
+"ultraviolet"
 ],
 "author": "",
 "license": "GPL-3.0-or-later",
