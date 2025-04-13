@@ -1,11 +1,8 @@
 {
-"buildCommand": "pnpm install --no-frozen-lockfile",
-"outputDirectory": ".",
-"ignoreCommand": "exit 1",
 "rewrites": [
 {
 "source": "/(.*)",
-"destination": "/"
+"destination": "/api/index.js"
 }
 ]
 }
