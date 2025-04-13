@@ -1,22 +1,10 @@
 {
-"name": "uv-app",
+"name": "ultraviolet-app",
 "version": "1.0.0",
-"description": "Ultraviolet 实例",
-"type": "module",
-"engines": {
-"node": ">=16.0.0",
-"npm": ">=7.0.0"
-},
+"main": "api/index.js",
 "scripts": {
-"start": "node api/index.js",
-"build": "echo 'No build needed'"
+"start": "node api/index.js"
 },
-"keywords": [
-"proxy",
-"ultraviolet"
-],
-"author": "",
-"license": "GPL-3.0-or-later",
 "dependencies": {
 "@fastify/static": "^8.0.2",
 "@mercuryworkshop/bare-mux": "^2.1.6",
@@ -27,9 +15,7 @@
 "wisp-server-node": "^1.1.7",
 "ws": "^8.18.0"
 },
-"devDependencies": {
-"eslint": "^9.13.0",
-"prettier": "^3.3.3"
-},
-"packageManager": "pnpm@9.12.2"
+"engines": {
+"node": ">=16.0.0"
+}
 }
