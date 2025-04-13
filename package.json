@@ -8,7 +8,7 @@
 "npm": ">=7.0.0"
 },
 "scripts": {
-"start": "node src/index.js",
+"start": "node api/index.js",
 "build": "echo 'No build needed'"
 },
 "keywords": [
@@ -23,7 +23,7 @@
 "@mercuryworkshop/epoxy-transport": "^2.1.25",
 "@titaniumnetwork-dev/ultraviolet": "^3.2.10",
 "fastify": "^5.0.0",
-"ultraviolet-static": "github:titaniumnetwork-dev/Ultraviolet-Static",
+"ultraviolet-static": "^1.0.5",
 "wisp-server-node": "^1.1.7",
 "ws": "^8.18.0"
 },
