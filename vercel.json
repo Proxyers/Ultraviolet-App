@@ -8,10 +8,6 @@
 ],
 "routes": [
 {
-"src": "/bare/(.*)",
-"dest": "/api/index.js"
-},
-{
 "src": "/(.*)",
 "dest": "/api/index.js"
 }
