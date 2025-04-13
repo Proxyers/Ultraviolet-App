@@ -1,7 +1,7 @@
 {
 "name": "ultraviolet-app",
 "version": "1.0.0",
-"description": "Ultraviolet deployment for Vercel",
+"description": "Ultraviolet instance for Vercel deployment",
 "type": "module",
 "main": "api/index.js",
 "scripts": {
