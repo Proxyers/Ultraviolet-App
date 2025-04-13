@@ -1,10 +1,14 @@
 {
 "version": 2,
-"builds": [],
-"routes": [
+"functions": {
+"api/index.js": {
+"runtime": "nodejs18.x"
+}
+},
+"rewrites": [
 {
-"src": "/(.*)",
-"dest": "/public/index.html"
+"source": "/(.*)",
+"destination": "/api/index.js"
 }
 ]
 }
