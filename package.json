@@ -1,15 +1,15 @@
 {
 "name": "uv-app",
 "version": "1.0.0",
-"description": "Ultraviolet instance",
+"description": "Ultraviolet 实例",
 "type": "module",
 "engines": {
-"npm": ">=7.0.0",
-"node": ">=16.0.0"
+"node": ">=16.0.0",
+"npm": ">=7.0.0"
 },
 "scripts": {
 "start": "node src/index.js",
-"build": "echo \"No build needed\""
+"build": "echo 'No build needed'"
 },
 "keywords": [
 "proxy",
